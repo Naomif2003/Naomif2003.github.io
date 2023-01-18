@@ -54,7 +54,6 @@ footer{
 .homeTEXT{
     font-size: large;
     text-decoration: none;
-    width: 50%;
 }
 
 .quoteTEXT{
@@ -70,7 +69,7 @@ footer{
     margin-right: 10px;
     size: 20em;
     align-self: auto;
-    width: 55%;
+    width: 100%;
 }
 
 .centered{
