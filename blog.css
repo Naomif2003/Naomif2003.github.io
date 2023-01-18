@@ -12,7 +12,9 @@ a:hover {
     color: #a1a3a5;
 }
 
-a {
+header a {
+    color: #ffffff;
+    font-size: 8mm;
     font-family: cursive;
 }
 
