@@ -12,8 +12,8 @@ h1 {
     font-family: cursive;
 }
 
-h2 {
-    text-decoration-style: wavy;
+a:hover {
+    color: #a1a3a5;
 }
 
 footer{

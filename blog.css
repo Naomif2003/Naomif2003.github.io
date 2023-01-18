@@ -8,12 +8,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+a:hover {
+    color: #a1a3a5;
+}
+
+a {
     font-family: cursive;
 }
 
-h2 {
-    text-decoration-style: wavy;
+a:hover {
+    color: #a1a3a5;
 }
 
 footer{
