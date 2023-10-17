@@ -7,9 +7,68 @@
 }
 
 .movietitle{
-    color: cadetblue;
+    align-self: center;
+    max-width: 100%;
+    color: #d58b3c;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.thebatmanimage{
-    
+.taylorswifttitle{
+    align-self: center;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trollstitle{
+    align-self: center;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.killersoftheflowermoontitle{
+    align-self: center;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fivenightsatfreddystitle{
+    align-self: center;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.taylorswiftimg{
+    align-self: center;
+    max-width: 100%;
+    height: auto;
+    height: 5.38cm;
+    width: 9.26cm;
+    border-radius: 3%;
+}
+
+.trollsimg{
+    align-self: center;
+    max-width: 100%;
+    height: auto;
+    height: 5.38cm;
+    width: 9.26cm;
+    border-radius: 3%;
+}
+
+.killersoftheflowermoonimg{
+    align-self: center;
+    max-width: 100%;
+    height: auto;
+    height: 5.38cm;
+    width: 9.26cm;
+    border-radius: 3%;
+}
+
+.fivenightsatfreddysimg{
+    align-self: center;
+    max-width: 100%;
+    height: auto;
+    height: 5.38cm;
+    width: 9.26cm;
+    border-radius: 3%;
 }
