@@ -11,14 +11,23 @@
 
 .moviename{
     text-align: center;
+    font-size: 14px;
 }
 
-.movietitle{
+.newreleases{
     align-self: center;
     max-width: 100%;
     color: #d58b3c;
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left:0.3cm;
+}
+
+.top2022movies{
+    align-self: center;
+    max-width: 100%;
+    color: #d58b3c;
+    margin-top: 15px;
+    margin-left:0.3cm;
 }
 
 img{
@@ -26,7 +35,41 @@ img{
     display:block;
     margin: auto;
     border-radius: 6%;
+    box-shadow: 1px 1px 3px;
 }
+
+nav{
+    width: 100%;
+    height: 90px;
+    background-color:#d58b3c;
+    box-shadow: 1px 1px 3px #000000;
+    border-bottom-left-radius: 6%;
+    border-bottom-right-radius: 6%;
+}
+
+ul{
+    margin-left:30cm;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 90px;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    padding: 0 20px;
+}
+
+ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+
 ______________________________
 .taylorswifttitle{
     width: 100%;
@@ -34,6 +77,7 @@ ______________________________
     display: flex;
     justify-content: center;
     align-items: center;
+    float: left;
 }
 
 .taylorswiftimg{
@@ -66,6 +110,7 @@ ______________________________
     font-size: 30px;
     color: black;
     margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
 }
 
 .content1 >*{
@@ -90,7 +135,7 @@ ______________________________
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 13cm;
+    margin-left: 13.5cm;
     float: left;
 }
 
@@ -117,6 +162,7 @@ ______________________________
     font-size: 30px;
     color: black;
     margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
 }
 
 .content2 >*{
@@ -141,8 +187,7 @@ ______________________________
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 26cm;
-    float: left;
+    margin-left: 26.5cm;
 }
 
 .content3{
@@ -168,6 +213,7 @@ ______________________________
     font-size: 30px;
     color: black;
     margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
 }
 
 .content3 >*{
@@ -180,6 +226,7 @@ ______________________________
 }
 
 ______________________________
+
 .killersoftheflowermoontitle{
     width: 100%;
     height: 100vh;
@@ -218,6 +265,7 @@ ______________________________
     font-size: 30px;
     color: black;
     margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
 }
 
 .content4 >*{
@@ -228,7 +276,6 @@ ______________________________
 .content4:hover >*{
     transform: translateY(25px);
 }
-
 ______________________________
 .trollstitle{
     width: 100%;
@@ -242,7 +289,8 @@ ______________________________
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 13cm;
+    margin-left: 13.5cm;
+    float: left;
 }
 
 .content5{
@@ -268,6 +316,7 @@ ______________________________
     font-size: 30px;
     color: black;
     margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
 }
 
 .content5 >*{
@@ -292,7 +341,7 @@ ______________________________
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 26cm;
+    margin-left: 26.5cm;
 }
 
 .content6{
@@ -318,6 +367,7 @@ ______________________________
     font-size: 30px;
     color: black;
     margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
 }
 
 .content6 >*{
@@ -368,6 +418,7 @@ ______________________________
     font-size: 30px;
     color: black;
     margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
 }
 
 .content7 >*{
@@ -392,7 +443,7 @@ ______________________________
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 13cm;
+    margin-left: 13.5cm;
     float: left;
 }
 
@@ -419,6 +470,7 @@ ______________________________
     font-size: 30px;
     color: black;
     margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
 }
 
 .content8 >*{
@@ -427,5 +479,56 @@ ______________________________
 }
 
 .content8:hover >*{
+    transform: translateY(25px);
+}
+
+______________________________
+.turningredtitle{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.turningredimg{
+    width: 450px;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 26.5cm;
+}
+
+.content9{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content9:hover{
+    opacity: 1;
+}
+
+.content9 h1{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
+}
+
+.content9 >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.content9:hover >*{
     transform: translateY(25px);
 }
