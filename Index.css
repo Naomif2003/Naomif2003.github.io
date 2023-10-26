@@ -71,7 +71,21 @@ ul li a:hover{
     color: rgb(255, 255, 255);
 }
 
-______________________________
+.movie-item {
+    width: 450px;
+    position: relative;
+}
+
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* -------------------------------------
+ *  TAYLOR SWIFT THE ERAS TOUR
+ * -------------------------------------
+ */
+
 .taylorswifttitle{
     width: 100%;
     height: 100vh;
@@ -123,7 +137,11 @@ ______________________________
     transform: translateY(25px);
 }
 
-______________________________
+/* -------------------------------------
+ *  PAW PATROL
+ * -------------------------------------
+ */
+
 .pawpatrolthemightymovietitle{
     width: 100%;
     height: 100vh;
@@ -136,8 +154,7 @@ ______________________________
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 13.5cm;
-    float: left;
+    margin-left: 1.5cm;
 }
 
 .content2{
@@ -175,7 +192,11 @@ ______________________________
     transform: translateY(25px);
 }
 
-______________________________
+/* -------------------------------------
+ *  THE EXORCISIST BELIEVER
+ * -------------------------------------
+ */
+
 .theexorcistbelievertitle{
     width: 100%;
     height: 100vh;
@@ -188,7 +209,7 @@ ______________________________
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 26.5cm;
+    margin-left: 3cm;
 }
 
 .content3{
@@ -226,7 +247,11 @@ ______________________________
     transform: translateY(25px);
 }
 
-______________________________
+/* -------------------------------------
+ *  KILLERS OF THE FOLLOW MOON
+ * -------------------------------------
+ */
+
 
 .killersoftheflowermoontitle{
     width: 100%;
@@ -277,7 +302,12 @@ ______________________________
 .content4:hover >*{
     transform: translateY(25px);
 }
-______________________________
+
+/* -------------------------------------
+ *  TROLLS
+ * -------------------------------------
+ */
+
 .trollstitle{
     width: 100%;
     height: 100vh;
@@ -290,8 +320,7 @@ ______________________________
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 13.5cm;
-    float: left;
+    margin-left: 1.5cm;
 }
 
 .content5{
@@ -329,7 +358,11 @@ ______________________________
     transform: translateY(25px);
 }
 
-______________________________
+/* -------------------------------------
+ *  FIVE NIGHTS AT FREDDYS
+ * -------------------------------------
+ */
+
 .fivenightsatfreddystitle{
     width: 100%;
     height: 100vh;
@@ -342,7 +375,7 @@ ______________________________
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 26.5cm;
+    margin-left: 3cm;
 }
 
 .content6{
@@ -380,8 +413,12 @@ ______________________________
     transform: translateY(25px);
 }
 
-______________________________
-.topgunmavericktitle{
+/* -------------------------------------
+ *  EVERYTHING EVERYWHEREALL ALL AT ONCE
+ * -------------------------------------
+ */
+
+ .everythingeverywhereallatoncetitle{
     width: 100%;
     height: 100vh;
     display: flex;
@@ -389,7 +426,7 @@ ______________________________
     align-items: center;
 }
 
-.topgunmaverickimg{
+.everythingeverywhereallatonceimg{
     width: 450px;
     position: relative;
     margin-top: 35px;
@@ -403,7 +440,7 @@ ______________________________
     left: 0;
     position: absolute;
     background: rgba(0,0,0,0,6);
-    display: flex;
+    display: flex;;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -431,8 +468,12 @@ ______________________________
     transform: translateY(25px);
 }
 
-______________________________
-.everythingeverywhereallatoncetitle{
+/* -------------------------------------
+ *  TOP GUN MAVERICK
+ * -------------------------------------
+ */
+
+.topgunmavericktitle{
     width: 100%;
     height: 100vh;
     display: flex;
@@ -440,12 +481,11 @@ ______________________________
     align-items: center;
 }
 
-.everythingeverywhereallatonceimg{
+.topgunmaverickimg{
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 13.5cm;
-    float: left;
+    margin-left: 1.5cm;
 }
 
 .content8{
@@ -455,7 +495,7 @@ ______________________________
     left: 0;
     position: absolute;
     background: rgba(0,0,0,0,6);
-    display: flex;;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -483,8 +523,12 @@ ______________________________
     transform: translateY(25px);
 }
 
-______________________________
-.turningredtitle{
+/* -------------------------------------
+ *  THE BATMAN
+ * -------------------------------------
+ */
+
+ .thebatmantitle{
     width: 100%;
     height: 100vh;
     display: flex;
@@ -492,11 +536,11 @@ ______________________________
     align-items: center;
 }
 
-.turningredimg{
+.thebatmanimg{
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 26.5cm;
+    margin-left: 3cm;
 }
 
 .content9{
@@ -506,7 +550,7 @@ ______________________________
     left: 0;
     position: absolute;
     background: rgba(0,0,0,0,6);
-    display: flex;;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -531,5 +575,500 @@ ______________________________
 }
 
 .content9:hover >*{
+    transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  TILL
+ * -------------------------------------
+ */
+
+ .tilltitle{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tillimg{
+    width: 450px;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 1.5cm;
+}
+
+.content11{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content11:hover{
+    opacity: 1;
+}
+
+.content11 h1{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
+}
+
+.content11 >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.content11:hover >*{
+    transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  THE WOMAN KING
+ * -------------------------------------
+ */
+
+ .thewomankingtitle{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thewomankingimg{
+    width: 450px;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 3cm;
+}
+
+.content12{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content12:hover{
+    opacity: 1;
+}
+
+.content12 h1{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
+}
+
+.content12 >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.content12:hover >*{
+    transform: translateY(25px);
+}
+/* -------------------------------------
+ *  Prey
+ * -------------------------------------
+ */
+
+ .preytitle{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preyimg{
+    width: 450px;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 0.3cm;
+}
+
+.content13{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content13:hover{
+    opacity: 1;
+}
+
+.content13 h1{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
+}
+
+.content13 >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.content13:hover >*{
+    transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  AFTERSUN
+ * -------------------------------------
+ */
+
+.aftersuntitle{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.aftersunimg{
+    width: 450px;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 0.3cm;
+}
+
+.content10{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content10:hover{
+    opacity: 1;
+}
+
+.content10 h1{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
+}
+
+.content10 >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.content10:hover >*{
+    transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  TAR
+ * -------------------------------------
+ */
+
+ .tartitle{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarimg{
+    width: 450px;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 1.5cm;
+}
+
+.content11{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content11:hover{
+    opacity: 1;
+}
+
+.content11 h1{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
+}
+
+.content11 >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.content11:hover >*{
+    transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  THE FABELMANS
+ * -------------------------------------
+ */
+
+ .thefabelmanstitle{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thefabelmansimg{
+    width: 450px;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 3cm;
+}
+
+.content12{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content12:hover{
+    opacity: 1;
+}
+
+.content12 h1{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
+}
+
+.content12 >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.content12:hover >*{
+    transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  AVATAR THE WAY OF WATER
+ * -------------------------------------
+ */
+
+ .avatarthewayofwatertitle{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatarthewayofwaterimg{
+    width: 450px;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 0.3cm;
+}
+
+.content13{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content13:hover{
+    opacity: 1;
+}
+
+.content13 h1{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
+}
+
+.content13 >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.content13:hover >*{
+    transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  NOPE
+ * -------------------------------------
+ */
+
+ .nopetitle{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nopeimg{
+    width: 450px;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 1.5cm;
+}
+
+.content14{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content14:hover{
+    opacity: 1;
+}
+
+.content14 h1{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
+}
+
+.content14 >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.content14:hover >*{
+    transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  ELVIS
+ * -------------------------------------
+ */
+
+ .elvistitle{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elvisimg{
+    width: 450px;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 3cm;
+}
+
+.content15{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content15:hover{
+    opacity: 1;
+}
+
+.content15 h1{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #ffffff;
+}
+
+.content15 >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.content15:hover >*{
     transform: translateY(25px);
 }
