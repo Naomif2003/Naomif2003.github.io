@@ -330,53 +330,39 @@ ul li a:hover{
  * -------------------------------------
  */
 
- .everythingeverywhereallatoncetitle{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .everythingeverywhereallatonceimg{
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 0.3cm;
+    margin-left: 0.2cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
 }
 
-.content7{
-    width: 100%;
-    height: 100%;
+.image7logo{
+    margin-top: 2cm;
+    margin-left: 1cm;
+    width: 40%;
+    height:40%;
     top: 0;
     left: 0;
     position: absolute;
     background: rgba(0,0,0,0,6);
-    display: flex;;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: flex;
     opacity: 0;
     transition: 0.6s;
 }
 
-.content7:hover{
+.image7logo:hover{
     opacity: 1;
 }
 
-.content7 h1{
-    font-size: 30px;
-    color: black;
-    margin-bottom: 15px;
-    text-shadow: 1px 1px 5px #ffffff;
-}
-
-.content7 >*{
+.image7logo >*{
     transform: translate(25px);
     transition: 0.6s;
 }
 
-.content7:hover >*{
+.image7logo:hover >*{
     transform: translateY(25px);
 }
 
@@ -385,53 +371,39 @@ ul li a:hover{
  * -------------------------------------
  */
 
-.topgunmavericktitle{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.topgunmaverickimg{
+ .topgunmaverickimg{
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 1.5cm;
+    margin-left: 0.8cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
 }
 
-.content8{
-    width: 100%;
-    height: 100%;
+.image8logo{
+    margin-top: 1.5cm;
+    margin-left: 1.2cm;
+    width: 35%;
+    height:35%;
     top: 0;
     left: 0;
     position: absolute;
     background: rgba(0,0,0,0,6);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     opacity: 0;
     transition: 0.6s;
 }
 
-.content8:hover{
+.image8logo:hover{
     opacity: 1;
 }
 
-.content8 h1{
-    font-size: 30px;
-    color: black;
-    margin-bottom: 15px;
-    text-shadow: 1px 1px 5px #ffffff;
-}
-
-.content8 >*{
+.image8logo >*{
     transform: translate(25px);
     transition: 0.6s;
 }
 
-.content8:hover >*{
+.image8logo:hover >*{
     transform: translateY(25px);
 }
 
@@ -440,217 +412,39 @@ ul li a:hover{
  * -------------------------------------
  */
 
- .thebatmantitle{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .thebatmanimg{
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 3cm;
-}
-
-.content9{
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: rgba(0,0,0,0,6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    opacity: 0;
-    transition: 0.6s;
-}
-
-.content9:hover{
-    opacity: 1;
-}
-
-.content9 h1{
-    font-size: 30px;
-    color: black;
-    margin-bottom: 15px;
-    text-shadow: 1px 1px 5px #ffffff;
-}
-
-.content9 >*{
-    transform: translate(25px);
-    transition: 0.6s;
-}
-
-.content9:hover >*{
-    transform: translateY(25px);
-}
-
-/* -------------------------------------
- *  TILL
- * -------------------------------------
- */
-
- .tilltitle{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tillimg{
-    width: 450px;
-    position: relative;
-    margin-top: 35px;
     margin-left: 1.5cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
 }
 
-.content11{
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: rgba(0,0,0,0,6);
-    display: flex;;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    opacity: 0;
-    transition: 0.6s;
-}
-
-.content11:hover{
-    opacity: 1;
-}
-
-.content11 h1{
-    font-size: 30px;
-    color: black;
-    margin-bottom: 15px;
-    text-shadow: 1px 1px 5px #ffffff;
-}
-
-.content11 >*{
-    transform: translate(25px);
-    transition: 0.6s;
-}
-
-.content11:hover >*{
-    transform: translateY(25px);
-}
-
-/* -------------------------------------
- *  THE WOMAN KING
- * -------------------------------------
- */
-
- .thewomankingtitle{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.thewomankingimg{
-    width: 450px;
-    position: relative;
-    margin-top: 35px;
-    margin-left: 3cm;
-}
-
-.content12{
-    width: 100%;
-    height: 100%;
+.image9logo{
+    margin-top: 1.5cm;
+    margin-left: 2cm;
+    width: 40%;
+    height:40%;
     top: 0;
     left: 0;
     position: absolute;
     background: rgba(0,0,0,0,6);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     opacity: 0;
     transition: 0.6s;
 }
 
-.content12:hover{
+.image9logo:hover{
     opacity: 1;
 }
 
-.content12 h1{
-    font-size: 30px;
-    color: black;
-    margin-bottom: 15px;
-    text-shadow: 1px 1px 5px #ffffff;
-}
-
-.content12 >*{
+.image9logo >*{
     transform: translate(25px);
     transition: 0.6s;
 }
 
-.content12:hover >*{
-    transform: translateY(25px);
-}
-/* -------------------------------------
- *  Prey
- * -------------------------------------
- */
-
- .preytitle{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.preyimg{
-    width: 450px;
-    position: relative;
-    margin-top: 35px;
-    margin-left: 0.3cm;
-}
-
-.content13{
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: rgba(0,0,0,0,6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    opacity: 0;
-    transition: 0.6s;
-}
-
-.content13:hover{
-    opacity: 1;
-}
-
-.content13 h1{
-    font-size: 30px;
-    color: black;
-    margin-bottom: 15px;
-    text-shadow: 1px 1px 5px #ffffff;
-}
-
-.content13 >*{
-    transform: translate(25px);
-    transition: 0.6s;
-}
-
-.content13:hover >*{
+.image9logo:hover >*{
     transform: translateY(25px);
 }
 
@@ -659,54 +453,39 @@ ul li a:hover{
  * -------------------------------------
  */
 
-.aftersuntitle{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: left;
-}
-
-.aftersunimg{
+ .aftersunimg{
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 0.3cm;
+    margin-left: 0.2cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
 }
 
-.content10{
-    width: 100%;
-    height: 100%;
+.image10logo{
+    margin-top: 3cm;
+    margin-left: 6.5cm;
+    width: 40%;
+    height:10%;
     top: 0;
     left: 0;
     position: absolute;
     background: rgba(0,0,0,0,6);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     opacity: 0;
     transition: 0.6s;
 }
 
-.content10:hover{
+.image10logo:hover{
     opacity: 1;
 }
 
-.content10 h1{
-    font-size: 30px;
-    color: black;
-    margin-bottom: 15px;
-    text-shadow: 1px 1px 5px #ffffff;
-}
-
-.content10 >*{
+.image10logo >*{
     transform: translate(25px);
     transition: 0.6s;
 }
 
-.content10:hover >*{
+.image10logo:hover >*{
     transform: translateY(25px);
 }
 
@@ -715,53 +494,39 @@ ul li a:hover{
  * -------------------------------------
  */
 
- .tartitle{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tarimg{
+ .tarimg{
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 1.5cm;
+    margin-left: 0.8cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
 }
 
-.content11{
-    width: 100%;
-    height: 100%;
+.image11logo{
+    margin-top: 0.2cm;
+    margin-left: 5.3cm;
+    width:20%;
+    height:35%;
     top: 0;
     left: 0;
     position: absolute;
     background: rgba(0,0,0,0,6);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     opacity: 0;
     transition: 0.6s;
 }
 
-.content11:hover{
+.image11logo:hover{
     opacity: 1;
 }
 
-.content11 h1{
-    font-size: 30px;
-    color: black;
-    margin-bottom: 15px;
-    text-shadow: 1px 1px 5px #ffffff;
-}
-
-.content11 >*{
+.image11logo >*{
     transform: translate(25px);
     transition: 0.6s;
 }
 
-.content11:hover >*{
+.image11logo:hover >*{
     transform: translateY(25px);
 }
 
@@ -770,53 +535,39 @@ ul li a:hover{
  * -------------------------------------
  */
 
- .thefabelmanstitle{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.thefabelmansimg{
+ .thefabelmansimg{
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 3cm;
+    margin-left: 1.5cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
 }
 
-.content12{
-    width: 100%;
-    height: 100%;
+.image12logo{
+    margin-top: 5cm;
+    margin-left: 4.5cm;
+    width: 50%;
+    height:20%;
     top: 0;
     left: 0;
     position: absolute;
     background: rgba(0,0,0,0,6);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     opacity: 0;
     transition: 0.6s;
 }
 
-.content12:hover{
+.image12logo:hover{
     opacity: 1;
 }
 
-.content12 h1{
-    font-size: 30px;
-    color: black;
-    margin-bottom: 15px;
-    text-shadow: 1px 1px 5px #ffffff;
-}
-
-.content12 >*{
+.image12logo >*{
     transform: translate(25px);
     transition: 0.6s;
 }
 
-.content12:hover >*{
+.image12logo:hover >*{
     transform: translateY(25px);
 }
 
@@ -825,53 +576,39 @@ ul li a:hover{
  * -------------------------------------
  */
 
- .avatarthewayofwatertitle{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.avatarthewayofwaterimg{
+ .avatarthewayofwaterimg{
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 0.3cm;
+    margin-left: 0.2cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
 }
 
-.content13{
-    width: 100%;
-    height: 100%;
+.image13logo{
+    margin-top: 1.7cm;
+    margin-left: 1cm;
+    width: 55%;
+    height:50%;
     top: 0;
     left: 0;
     position: absolute;
     background: rgba(0,0,0,0,6);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     opacity: 0;
     transition: 0.6s;
 }
 
-.content13:hover{
+.image13logo:hover{
     opacity: 1;
 }
 
-.content13 h1{
-    font-size: 30px;
-    color: black;
-    margin-bottom: 15px;
-    text-shadow: 1px 1px 5px #ffffff;
-}
-
-.content13 >*{
+.image13logo >*{
     transform: translate(25px);
     transition: 0.6s;
 }
 
-.content13:hover >*{
+.image13logo:hover >*{
     transform: translateY(25px);
 }
 
@@ -880,53 +617,39 @@ ul li a:hover{
  * -------------------------------------
  */
 
- .nopetitle{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nopeimg{
+ .nopeimg{
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 1.5cm;
+    margin-left: 0.8cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
 }
 
-.content14{
-    width: 100%;
-    height: 100%;
+.image14logo{
+    margin-top: 4cm;
+    margin-left: 5cm;
+    width: 30%;
+    height:30%;
     top: 0;
     left: 0;
     position: absolute;
     background: rgba(0,0,0,0,6);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     opacity: 0;
     transition: 0.6s;
 }
 
-.content14:hover{
+.image14logo:hover{
     opacity: 1;
 }
 
-.content14 h1{
-    font-size: 30px;
-    color: black;
-    margin-bottom: 15px;
-    text-shadow: 1px 1px 5px #ffffff;
-}
-
-.content14 >*{
+.image14logo >*{
     transform: translate(25px);
     transition: 0.6s;
 }
 
-.content14:hover >*{
+.image14logo:hover >*{
     transform: translateY(25px);
 }
 
@@ -935,52 +658,38 @@ ul li a:hover{
  * -------------------------------------
  */
 
- .elvistitle{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.elvisimg{
+ .elvisimg{
     width: 450px;
     position: relative;
     margin-top: 35px;
-    margin-left: 3cm;
+    margin-left: 1.5cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
 }
 
-.content15{
-    width: 100%;
-    height: 100%;
+.image15logo{
+    margin-top: 2.5cm;
+    margin-left: 8cm;
+    width: 30%;
+    height:30%;
     top: 0;
     left: 0;
     position: absolute;
     background: rgba(0,0,0,0,6);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     opacity: 0;
     transition: 0.6s;
 }
 
-.content15:hover{
+.image15logo:hover{
     opacity: 1;
 }
 
-.content15 h1{
-    font-size: 30px;
-    color: black;
-    margin-bottom: 15px;
-    text-shadow: 1px 1px 5px #ffffff;
-}
-
-.content15 >*{
+.image15logo >*{
     transform: translate(25px);
     transition: 0.6s;
 }
 
-.content15:hover >*{
+.image15logo:hover >*{
     transform: translateY(25px);
 }
