@@ -8,7 +8,7 @@
 .image12image{
     width: 25cm;
     position: relative;
-    margin-top: 10px;
+    margin-top: 0.1;
     align-items: center;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777);
@@ -55,7 +55,8 @@ img{
     margin: auto;
 }
 
-nav{
+/* -------------------------------------
+ *  nav{
     width: 100%;
     height: 90px;
     background-color:#d58b3c;
@@ -63,6 +64,8 @@ nav{
     border-bottom-left-radius: 6%;
     border-bottom-right-radius: 6%;
 }
+ * -------------------------------------
+ */
 
 ul{
     margin-left:30cm;
@@ -81,6 +84,7 @@ ul li a{
     font-family: Arial, Helvetica, sans-serif;
     color: #000000;
     padding: 0 20px;
+    position: absolute;
 }
 
 ul li a:hover{
@@ -710,4 +714,15 @@ ul li a:hover{
 
 .image15logo:hover >*{
     transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  FOOTER
+ * -------------------------------------
+ */
+
+ .footer{
+    color: #22233B;
+    font-size: .9em;
+    padding: 1.10em 1em;
 }
