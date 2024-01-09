@@ -5,19 +5,27 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* -------------------------------------
+ *  Logo
+ * -------------------------------------
+ */
+
+.busy-bee-logo{
+    display: flex;
+    position: absolute;
+}
+
 .image12image{
-    width: 25cm;
+    width: 40cm;
     position: relative;
     margin-top: 0.1;
     align-items: center;
-    border-radius: 6%;
-    filter:drop-shadow(1px 1px 3px #777777);
     list-style-type:none;
     background-image: linear-gradient(180deg #fff);
 }
 
 .movietitlequote{
-    margin-top: 13cm;
+    margin-top: 15cm;
     margin-left: 10.5cm;
     width: 80%;
     height:40%;
@@ -26,6 +34,8 @@
     position: absolute;
     background: rgba(0,0,0,0,6);
     display: flex;
+    color: #ffffff;
+    font-family:monospace;
 }
 
 .moviename{
@@ -36,17 +46,21 @@
 .newreleases{
     align-self: center;
     max-width: 100%;
-    color: #d58b3c;
-    margin-top: 15px;
-    margin-left:0.3cm;
+    color: #ae634c;
+    margin-top: 11px;
+    margin-left:0.5cm;
+    font-family: monospace;
+    font-size: 0.7cm;
 }
 
 .top2022movies{
     align-self: center;
     max-width: 100%;
-    color: #d58b3c;
-    margin-top: 15px;
+    color: #ae634c;
+    margin-top: 11px;
     margin-left:0.3cm;
+    font-family: monospace;
+    font-size: 0.7cm;
 }
 
 img{
@@ -55,20 +69,14 @@ img{
     margin: auto;
 }
 
-/* -------------------------------------
- *  nav{
+nav{
     width: 100%;
     height: 90px;
-    background-color:#d58b3c;
-    box-shadow: 1px 1px 3px #777777;
-    border-bottom-left-radius: 6%;
-    border-bottom-right-radius: 6%;
+    background-color:#ae634c;
 }
- * -------------------------------------
- */
 
 ul{
-    margin-left:30cm;
+    margin-left:23cm;
 }
 
 ul li{
@@ -82,13 +90,12 @@ ul li a{
     text-decoration: none;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
+    color: #ffffff;
     padding: 0 20px;
-    position: absolute;
 }
 
 ul li a:hover{
-    color: rgb(255, 255, 255);
+    color: #436cae(255, 255, 255);
 }
 
 .movie-item {
