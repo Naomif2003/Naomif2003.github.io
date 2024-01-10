@@ -19,48 +19,24 @@
 }
 
 /* -------------------------------------
- *  Home page image
+ *  Top 2021 movies
  * -------------------------------------
  */
 
-.image12image{
-    width: 40cm;
-    display: flex;
-    position: relative;
-    margin-top: 0.1;
-    align-items: center;
-    list-style-type:none;
-    background-image: linear-gradient(180deg #fff);
-}
-
-.movietitlequote{
-    margin-top: 15cm;
-    margin-left: 10.5cm;
-    width: 80%;
-    height:40%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: rgba(0,0,0,0,6);
-    display: flex;
-    color: #ffffff;
-    font-family:monospace;
-}
-
-.moviename{
-    text-align: center;
-    font-size: 14px;
-}
-
-.newreleases{
+ .top2021movies{
     align-self: center;
     max-width: 100%;
     color: #ae634c;
-    margin-top: 32px;
-    margin-left:0.5cm;
+    margin-top: 1cm;
+    margin-left:0.3cm;
     font-family: monospace;
     font-size: 0.7cm;
 }
+
+/* -------------------------------------
+ *  Top 2022 movies
+ * -------------------------------------
+ */
 
 .top2022movies{
     align-self: center;
@@ -119,252 +95,6 @@ ul li a:hover{
 .movie-container {
     display: flex;
     flex-wrap: wrap;
-}
-
-/* -------------------------------------
- *  TAYLOR SWIFT THE ERAS TOUR
- * -------------------------------------
- */
-
-.taylorswiftimg{
-    width: 450px;
-    position: relative;
-    margin-top: 13px;
-    margin-left: 0.2cm;
-    border-radius: 6%;
-    filter:drop-shadow(1px 1px 3px #777777)
-}
-
-.image1logo{
-    margin-top: 1.7cm;
-    margin-left: 0.5cm;
-    width: 43%;
-    height:43%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: rgba(0,0,0,0,6);
-    display: flex;
-    opacity: 0;
-    transition: 0.6s;
-}
-
-.image1logo:hover{
-    opacity: 1;
-}
-
-.image1logo >*{
-    transform: translate(25px);
-    transition: 0.6s;
-}
-
-.image1logo:hover >*{
-    transform: translateY(25px);
-}
-
-/* -------------------------------------
- *  PAW PATROL
- * -------------------------------------
- */
-
- .pawpatrolthemightymovieimg{
-    width: 450px;
-    position: relative;
-    margin-top: 13px;
-    margin-left: 0.8cm;
-    border-radius: 6%;
-    filter:drop-shadow(1px 1px 3px #777777)
-}
-
-.image2logo{
-    margin-top: 1cm;
-    margin-left: 1cm;
-    width: 35%;
-    height:55%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: rgba(0,0,0,0,6);
-    display: flex;
-    opacity: 0;
-    transition: 0.6s;
-}
-
-.image2logo:hover{
-    opacity: 1;
-}
-
-.image2logo >*{
-    transform: translate(25px);
-    transition: 0.6s;
-}
-
-.image2logo:hover >*{
-    transform: translateY(25px);
-}
-
-/* -------------------------------------
- *  THE EXORCISIST BELIEVER
- * -------------------------------------
- */
-
- .theexorcistbelieverimg{
-    width: 450px;
-    position: relative;
-    margin-top: 13px;
-    margin-left: 1.5cm;
-    border-radius: 6%;
-    filter:drop-shadow(1px 1px 3px #777777)
-}
-
-.image3logo{
-    margin-top: 3cm;
-    margin-left: 4.5cm;
-    width: 50%;
-    height:50%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: rgba(0,0,0,0,6);
-    display: flex;
-    opacity: 0;
-    transition: 0.6s;
-}
-
-.image3logo:hover{
-    opacity: 1;
-}
-
-.image3logo >*{
-    transform: translate(25px);
-    transition: 0.6s;
-}
-
-.image3logo:hover >*{
-    transform: translateY(25px);
-}
-
-/* -------------------------------------
- *  KILLERS OF THE FOLLOW MOON
- * -------------------------------------
- */
-
- .killersoftheflowermoonimg{
-    width: 450px;
-    position: relative;
-    margin-top: 21px;
-    margin-left: 0.2cm;
-    border-radius: 6%;
-    filter:drop-shadow(1px 1px 3px #777777)
-}
-
-.image4logo{
-    margin-top: 2cm;
-    margin-left: 0.7cm;
-    width: 40%;
-    height:40%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: rgba(0,0,0,0,6);
-    display: flex;
-    opacity: 0;
-    transition: 0.6s;
-}
-
-.image4logo:hover{
-    opacity: 1;
-}
-
-.image4logo >*{
-    transform: translate(25px);
-    transition: 0.6s;
-}
-
-.image4logo:hover >*{
-    transform: translateY(25px);
-}
-
-/* -------------------------------------
- *  TROLLS
- * -------------------------------------
- */
-
- .trollsimg{
-    width: 450px;
-    position: relative;
-    margin-top: 21px;
-    margin-left: 0.8cm;
-    border-radius: 6%;
-    filter:drop-shadow(1px 1px 3px #777777)
-}
-
-.image5logo{
-    margin-top: 1cm;
-    margin-left: 8.5cm;
-    width: 35%;
-    height:35%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: rgba(0,0,0,0,6);
-    display: flex;
-    opacity: 0;
-    transition: 0.6s;
-}
-
-.image5logo:hover{
-    opacity: 1;
-}
-
-.image5logo >*{
-    transform: translate(25px);
-    transition: 0.6s;
-}
-
-.image5logo:hover >*{
-    transform: translateY(25px);
-}
-
-/* -------------------------------------
- *  FIVE NIGHTS AT FREDDYS
- * -------------------------------------
- */
-
- .fivenightsatfreddysimg{
-    width: 450px;
-    position: relative;
-    margin-top: 21px;
-    margin-left: 1.5cm;
-    border-radius: 6%;
-    filter:drop-shadow(1px 1px 3px #777777)
-}
-
-.image6logo{
-    margin-top: 2cm;
-    margin-left: 8.4cm;
-    width: 40%;
-    height:40%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: rgba(0,0,0,0,6);
-    display: flex;
-    opacity: 0;
-    transition: 0.6s;
-}
-
-.image6logo:hover{
-    opacity: 1;
-}
-
-.image6logo >*{
-    transform: translate(25px);
-    transition: 0.6s;
-}
-
-.image6logo:hover >*{
-    transform: translateY(25px);
 }
 
 /* -------------------------------------
@@ -733,6 +463,129 @@ ul li a:hover{
 }
 
 .image15logo:hover >*{
+    transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  SPIDEERMAN: NO WAY HOME
+ * -------------------------------------
+ */
+
+ .spidermanimg{
+    width: 450px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 0.2cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
+}
+
+.image16logo{
+    margin-top: 2cm;
+    margin-left: 0.8cm;
+    width: 45%;
+    height:45%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.image16logo:hover{
+    opacity: 1;
+}
+
+.image16logo >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.image16logo:hover >*{
+    transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  Raya and the Last Dragon
+ * -------------------------------------
+ */
+
+ .rayaandthelastdragonimg{
+    width: 450px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 0.8cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
+}
+
+.image17logo{
+    margin-top: 1.8cm;
+    margin-left: 1.2cm;
+    width: 45%;
+    height:45%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.image17logo:hover{
+    opacity: 1;
+}
+
+.image17logo >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.image17logo:hover >*{
+    transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  West Side Story
+ * -------------------------------------
+ */
+
+ .westsidestoryimg{
+    width: 450px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 1.5cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
+}
+
+.image18logo{
+    margin-top: 1.8cm;
+    margin-left: 1.8cm;
+    width: 35%;
+    height:35%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.image18logo:hover{
+    opacity: 1;
+}
+
+.image18logo >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.image18logo:hover >*{
     transform: translateY(25px);
 }
 
