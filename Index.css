@@ -11,12 +11,12 @@
  */
 
 .busy-bee-logo{
-    display: flex;
     position: absolute;
 }
 
 .image12image{
     width: 40cm;
+    display: flex;
     position: relative;
     margin-top: 0.1;
     align-items: center;
@@ -47,7 +47,7 @@
     align-self: center;
     max-width: 100%;
     color: #ae634c;
-    margin-top: 11px;
+    margin-top: 32px;
     margin-left:0.5cm;
     font-family: monospace;
     font-size: 0.7cm;
@@ -57,7 +57,7 @@
     align-self: center;
     max-width: 100%;
     color: #ae634c;
-    margin-top: 11px;
+    margin-top: 32px;
     margin-left:0.3cm;
     font-family: monospace;
     font-size: 0.7cm;
@@ -76,13 +76,15 @@ nav{
 }
 
 ul{
-    margin-left:23cm;
+    margin-left:21cm;
 }
 
 ul li{
     list-style: none;
     display: inline-block;
     line-height: 90px;
+    padding: .5em .75em;
+    border: none;
 }
 
 ul li a{
@@ -116,7 +118,7 @@ ul li a:hover{
 .taylorswiftimg{
     width: 450px;
     position: relative;
-    margin-top: 35px;
+    margin-top: 13px;
     margin-left: 0.2cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
@@ -157,7 +159,7 @@ ul li a:hover{
  .pawpatrolthemightymovieimg{
     width: 450px;
     position: relative;
-    margin-top: 35px;
+    margin-top: 13px;
     margin-left: 0.8cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
@@ -198,7 +200,7 @@ ul li a:hover{
  .theexorcistbelieverimg{
     width: 450px;
     position: relative;
-    margin-top: 35px;
+    margin-top: 13px;
     margin-left: 1.5cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
@@ -239,7 +241,7 @@ ul li a:hover{
  .killersoftheflowermoonimg{
     width: 450px;
     position: relative;
-    margin-top: 35px;
+    margin-top: 21px;
     margin-left: 0.2cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
@@ -280,7 +282,7 @@ ul li a:hover{
  .trollsimg{
     width: 450px;
     position: relative;
-    margin-top: 35px;
+    margin-top: 21px;
     margin-left: 0.8cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
@@ -321,7 +323,7 @@ ul li a:hover{
  .fivenightsatfreddysimg{
     width: 450px;
     position: relative;
-    margin-top: 35px;
+    margin-top: 21px;
     margin-left: 1.5cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
@@ -362,7 +364,7 @@ ul li a:hover{
 .everythingeverywhereallatonceimg{
     width: 450px;
     position: relative;
-    margin-top: 35px;
+    margin-top: 12px;
     margin-left: 0.2cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
@@ -403,7 +405,7 @@ ul li a:hover{
  .topgunmaverickimg{
     width: 450px;
     position: relative;
-    margin-top: 35px;
+    margin-top: 12px;
     margin-left: 0.8cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
@@ -444,7 +446,7 @@ ul li a:hover{
 .thebatmanimg{
     width: 450px;
     position: relative;
-    margin-top: 35px;
+    margin-top: 12px;
     margin-left: 1.5cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
@@ -485,7 +487,7 @@ ul li a:hover{
  .aftersunimg{
     width: 450px;
     position: relative;
-    margin-top: 35px;
+    margin-top: 21px;
     margin-left: 0.2cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
@@ -526,7 +528,7 @@ ul li a:hover{
  .tarimg{
     width: 450px;
     position: relative;
-    margin-top: 35px;
+    margin-top: 21px;
     margin-left: 0.8cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
@@ -567,7 +569,7 @@ ul li a:hover{
  .thefabelmansimg{
     width: 450px;
     position: relative;
-    margin-top: 35px;
+    margin-top: 21px;
     margin-left: 1.5cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
@@ -608,7 +610,7 @@ ul li a:hover{
  .avatarthewayofwaterimg{
     width: 450px;
     position: relative;
-    margin-top: 35px;
+    margin-top: 21px;
     margin-left: 0.2cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
@@ -649,7 +651,7 @@ ul li a:hover{
  .nopeimg{
     width: 450px;
     position: relative;
-    margin-top: 35px;
+    margin-top: 21px;
     margin-left: 0.8cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
@@ -690,7 +692,7 @@ ul li a:hover{
  .elvisimg{
     width: 450px;
     position: relative;
-    margin-top: 35px;
+    margin-top: 21px;
     margin-left: 1.5cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
