@@ -52,7 +52,13 @@
     font-size: 14px;
 }
 
+/* -------------------------------------
+ *  New releases
+ * -------------------------------------
+ */
+
 .newreleases{
+    position:relative;
     align-self: center;
     max-width: 100%;
     color: #ae634c;
@@ -61,6 +67,11 @@
     font-family: monospace;
     font-size: 0.7cm;
 }
+
+/* -------------------------------------
+ *  Top 2022 movies
+ * -------------------------------------
+ */
 
 .top2022movies{
     align-self: center;

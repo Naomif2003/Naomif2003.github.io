@@ -27,7 +27,7 @@
     align-self: center;
     max-width: 100%;
     color: #ae634c;
-    margin-top: 1cm;
+    margin-top: 32px;
     margin-left:0.3cm;
     font-family: monospace;
     font-size: 0.7cm;
@@ -39,6 +39,7 @@
  */
 
 .top2022movies{
+    position:relative;
     align-self: center;
     max-width: 100%;
     color: #ae634c;
@@ -467,14 +468,14 @@ ul li a:hover{
 }
 
 /* -------------------------------------
- *  SPIDEERMAN: NO WAY HOME
+ *  SPIDERMAN: NOW WAY HOME
  * -------------------------------------
  */
 
  .spidermanimg{
     width: 450px;
     position: relative;
-    margin-top: 50px;
+    margin-top: 1px;
     margin-left: 0.2cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
@@ -482,9 +483,9 @@ ul li a:hover{
 
 .image16logo{
     margin-top: 2cm;
-    margin-left: 0.8cm;
-    width: 45%;
-    height:45%;
+    margin-left: 0.9cm;
+    width: 50%;
+    height:50%;
     top: 0;
     left: 0;
     position: absolute;
@@ -515,17 +516,17 @@ ul li a:hover{
  .rayaandthelastdragonimg{
     width: 450px;
     position: relative;
-    margin-top: 50px;
+    margin-top: 23px;
     margin-left: 0.8cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
 }
 
 .image17logo{
-    margin-top: 1.8cm;
-    margin-left: 1.2cm;
-    width: 45%;
-    height:45%;
+    margin-top: 1.9cm;
+    margin-left: 1.8cm;
+    width: 35%;
+    height:35%;
     top: 0;
     left: 0;
     position: absolute;
@@ -553,20 +554,20 @@ ul li a:hover{
  * -------------------------------------
  */
 
- .westsidestoryimg{
+.westsidestoryimg{
     width: 450px;
     position: relative;
-    margin-top: 50px;
+    margin-top: 23px;
     margin-left: 1.5cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
 }
 
 .image18logo{
-    margin-top: 1.8cm;
-    margin-left: 1.8cm;
-    width: 35%;
-    height:35%;
+    margin-top: 1.9cm;
+    margin-left: 2cm;
+    width: 40%;
+    height:40%;
     top: 0;
     left: 0;
     position: absolute;
@@ -586,6 +587,252 @@ ul li a:hover{
 }
 
 .image18logo:hover >*{
+    transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  A Quiet Place Part II
+ * -------------------------------------
+ */
+
+ .aquietplacepart2img{
+    width: 450px;
+    position: relative;
+    margin-top: 21px;
+    margin-left: 0.3cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
+}
+
+.image19logo{
+    margin-top: 2cm;
+    margin-left: 6.5cm;
+    width: 40%;
+    height:40%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.image19logo:hover{
+    opacity: 1;
+}
+
+.image19logo >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.image19logo:hover >*{
+    transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  The Mitchells vs. the Machine
+ * -------------------------------------
+ */
+
+ .themitchellsvsthemachineimg{
+    width: 450px;
+    position: relative;
+    margin-top: 21px;
+    margin-left: 0.9cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
+}
+
+.image20logo{
+    margin-top: 1.2cm;
+    margin-left: 1cm;
+    width:50%;
+    height:50%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.image20logo:hover{
+    opacity: 1;
+}
+
+.image20logo >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.image20logo:hover >*{
+    transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  The Suicide Squad
+ * -------------------------------------
+ */
+
+ .thesuicidesquadimg{
+    width: 450px;
+    position: relative;
+    margin-top: 21px;
+    margin-left: 1.5cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
+}
+
+.image21logo{
+    margin-top: 1cm;
+    margin-left: 2cm;
+    width: 40%;
+    height:40%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.image21logo:hover{
+    opacity: 1;
+}
+
+.image21logo >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.image21logo:hover >*{
+    transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  Shang-Chi and the Legend of the Ten Rings
+ * -------------------------------------
+ */
+
+ .shangchiandthelegendofthetenringsimg{
+    width: 450px;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 0.2cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
+}
+
+.image22logo{
+    margin-top: 3cm;
+    margin-left: 3cm;
+    width: 55%;
+    height:50%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.image22logo:hover{
+    opacity: 1;
+}
+
+.image22logo >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.image22logo:hover >*{
+    transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  Luca
+ * -------------------------------------
+ */
+
+ .lucaimg{
+    width: 450px;
+    position: relative;
+    margin-top: 31px;
+    margin-left: 0.8cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
+}
+
+.image23logo{
+    margin-top: 3cm;
+    margin-left: 1.5cm;
+    width: 40%;
+    height:45%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.image23logo:hover{
+    opacity: 1;
+}
+
+.image23logo >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.image23logo:hover >*{
+    transform: translateY(25px);
+}
+
+/* -------------------------------------
+ *  Luzzu
+ * -------------------------------------
+ */
+
+ .luzzuimg{
+    width: 450px;
+    position: relative;
+    margin-top: 31px;
+    margin-left: 1.4cm;
+    border-radius: 6%;
+    filter:drop-shadow(1px 1px 3px #777777)
+}
+
+.image24logo{
+    margin-top: 1cm;
+    margin-left: 7.7cm;
+    width: 25%;
+    height:25%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.image24logo:hover{
+    opacity: 1;
+}
+
+.image24logo >*{
+    transform: translate(25px);
+    transition: 0.6s;
+}
+
+.image24logo:hover >*{
     transform: translateY(25px);
 }
 
