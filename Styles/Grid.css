@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text1{
+    width: 300px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.bigbox{
+    /*border property is shorthand for the following:display
+    border-width: 2px;
+    border-style: solid;
+    color: black;
+    */
+
+    border: 2px solid black;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: rgb(243, 203, 203);
+    font-family:monospace;
+}
+
+.box1{
+    border: 2px solid black;
+    width:auto;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    background-color: rgb(243, 222, 203);
+    font-family: monospace;
+}
+
+.box1text{
+    margin-left: 3px;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    display: block;
+    width: auto;
+    height: 100;
+}
+
+.box1text:hover{
+    color: rgb(243, 222, 203);
+}
+
+.box2{
+    border: 2px solid black;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    background-color: rgb(237, 243, 203);
+    font-family: monospace;
+}
+
+.box2text{
+    margin-left: 3px;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    display: block;
+    width: auto;
+    height: 100;
+}
+
+.orangecatimg{
+    width: 21.2cm;
+    height: 14.1cm;
+    position: absolute;
+}
