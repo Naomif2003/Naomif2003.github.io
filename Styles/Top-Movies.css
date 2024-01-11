@@ -6,6 +6,17 @@
 }
 
 /* -------------------------------------
+ *  Footer
+ * -------------------------------------
+ */
+
+ .footer{
+    color: #22233B;
+    font-size: .9em;
+    padding: 1.10em 1em;
+}
+
+/* -------------------------------------
  *  Logo
  * -------------------------------------
  */
@@ -475,7 +486,7 @@ ul li a:hover{
  .spidermanimg{
     width: 450px;
     position: relative;
-    margin-top: 1px;
+    margin-top: 12px;
     margin-left: 0.2cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)

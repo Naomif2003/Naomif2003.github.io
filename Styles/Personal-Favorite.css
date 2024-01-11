@@ -6,12 +6,24 @@
 }
 
 /* -------------------------------------
- *  2021 movies
+ *  Logo
  * -------------------------------------
  */
 
- .movies2021{
-    position:relative;
+.busy-bee-logo{
+    width: 30cm;
+    height:20cm;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+/* -------------------------------------
+ *  Top 2021 movies
+ * -------------------------------------
+ */
+
+ .top2021movies{
     align-self: center;
     max-width: 100%;
     color: #ae634c;
@@ -22,11 +34,11 @@
 }
 
 /* -------------------------------------
- *  2022 movies
+ *  Top 2022 movies
  * -------------------------------------
  */
 
-.movies2022{
+.top2022movies{
     position:relative;
     align-self: center;
     max-width: 100%;
@@ -35,6 +47,12 @@
     margin-left:0.3cm;
     font-family: monospace;
     font-size: 0.7cm;
+}
+
+img{
+    width: 100%;
+    display:block;
+    margin: auto;
 }
 
 nav{
@@ -70,15 +88,25 @@ ul li a:hover{
     color: #436cae(255, 255, 255);
 }
 
+.movie-item {
+    width: 450px;
+    position: relative;
+}
+
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* -------------------------------------
  *  The Batman
  * -------------------------------------
  */
 
- .thebatmanimg{
+.thebatmanimg{
     width: 450px;
     position: relative;
-    margin-top: 13px;
+    margin-top: 12px;
     margin-left: 0.2cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
@@ -86,9 +114,9 @@ ul li a:hover{
 
 .image9logo{
     margin-top: 1.7cm;
-    margin-left: 0.5cm;
-    width: 43%;
-    height:43%;
+    margin-left: 0.6cm;
+    width: 40%;
+    height:40%;
     top: 0;
     left: 0;
     position: absolute;
@@ -119,15 +147,16 @@ ul li a:hover{
  .thefabelmansimg{
     width: 450px;
     position: relative;
-    margin-top: 13px;
+    margin-top: 12px;
     margin-left: 0.8cm;
+    margin-right: 10cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
 }
 
 .image12logo{
     margin-top: 5cm;
-    margin-left: 4.5cm;
+    margin-left: 3.5cm;
     width: 50%;
     height:20%;
     top: 0;
@@ -153,23 +182,23 @@ ul li a:hover{
 }
 
 /* -------------------------------------
- *  AVATAR THE WAY OF WATER
+ *  Avatar: The Way Of Water
  * -------------------------------------
  */
 
 .avatarthewayofwaterimg{
     width: 450px;
     position: relative;
-    margin-top: 13px;
+    margin-top: 12px;
     margin-left: 1.5cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
 }
 
 .image13logo{
-    margin-top: 3cm;
-    margin-left: 4.5cm;
-    width: 50%;
+    margin-top: 1.7cm;
+    margin-left: 2cm;
+    width: 55%;
     height:50%;
     top: 0;
     left: 0;
@@ -201,17 +230,17 @@ ul li a:hover{
  .spidermanimg{
     width: 450px;
     position: relative;
-    margin-top: 21px;
+    margin-top: 12px;
     margin-left: 0.2cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
 }
 
 .image16logo{
-    margin-top: 2.3cm;
-    margin-left: 0.7cm;
-    width: 45%;
-    height:45%;
+    margin-top: 2cm;
+    margin-left: 0.9cm;
+    width: 50%;
+    height:50%;
     top: 0;
     left: 0;
     position: absolute;
@@ -235,24 +264,25 @@ ul li a:hover{
 }
 
 /* -------------------------------------
- *  Shang Chi and the Legand of the Ten Rings
+ *  Shang-Chi and the Legend of the Ten Rings
  * -------------------------------------
  */
 
  .shangchiandthelegendofthetenringsimg{
     width: 450px;
     position: relative;
-    margin-top: 21px;
-    margin-left: 1.5cm;
+    margin-top: 12px;
+    margin-left: 0.8cm;
+    margin-right: 10cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
 }
 
 .image22logo{
-    margin-top: 2cm;
-    margin-left: 8.4cm;
-    width: 40%;
-    height:40%;
+    margin-top: 3cm;
+    margin-left: 3.5cm;
+    width: 55%;
+    height:50%;
     top: 0;
     left: 0;
     position: absolute;
@@ -283,17 +313,17 @@ ul li a:hover{
  .lucaimg{
     width: 450px;
     position: relative;
-    margin-top: 21px;
-    margin-left: 0.8cm;
+    margin-top: 12px;
+    margin-left: 1.5cm;
     border-radius: 6%;
     filter:drop-shadow(1px 1px 3px #777777)
 }
 
 .image23logo{
-    margin-top: 1cm;
-    margin-left: 8.5cm;
-    width: 35%;
-    height:35%;
+    margin-top: 3cm;
+    margin-left: 2.3cm;
+    width: 40%;
+    height:45%;
     top: 0;
     left: 0;
     position: absolute;
@@ -317,42 +347,12 @@ ul li a:hover{
 }
 
 /* -------------------------------------
- *  FIVE NIGHTS AT FREDDYS
+ *  FOOTER
  * -------------------------------------
  */
 
- .fivenightsatfreddysimg{
-    width: 450px;
-    position: relative;
-    margin-top: 21px;
-    margin-left: 1.5cm;
-    border-radius: 6%;
-    filter:drop-shadow(1px 1px 3px #777777)
-}
-
-.image6logo{
-    margin-top: 2cm;
-    margin-left: 8.4cm;
-    width: 40%;
-    height:40%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: rgba(0,0,0,0,6);
-    display: flex;
-    opacity: 0;
-    transition: 0.6s;
-}
-
-.image6logo:hover{
-    opacity: 1;
-}
-
-.image6logo >*{
-    transform: translate(25px);
-    transition: 0.6s;
-}
-
-.image6logo:hover >*{
-    transform: translateY(25px);
+ .footer{
+    color: #22233B;
+    font-size: .9em;
+    padding: 1.10em 1em;
 }
