@@ -148,41 +148,25 @@ ul li a{
 .star1{
     width: 50px;
     height: 50px;
-    margin-top: 12cm;
+    margin-top: 0.2cm;
     margin-left: 5cm;
-    position: fixed;
+    position: absolute;
 }
 
 .star2{
     width: 50px;
     height: 50px;
-    margin-top: 12cm;
+    margin-top: 0.2cm;
     margin-left: 7cm;
-    position: fixed;
-}
-
-.star3{
-    width: 50px;
-    height: 50px;
-    margin-top: 12cm;
-    margin-left: 9cm;
-    position: fixed;
-}
-
-.star4{
-    width: 50px;
-    height: 50px;
-    margin-top: 12cm;
-    margin-left: 11cm;
-    position: fixed;
+    position: absolute;
 }
 
 .star5{
     width: 50px;
     height: 50px;
-    margin-top: 12cm;
-    margin-left: 13cm;
-    position: fixed;
+    margin-top: 0.2cm;
+    margin-left: 9cm;
+    position: absolute;
 }
 
 /* -------------------------------------
@@ -193,5 +177,7 @@ ul li a{
  .footer{
     color: #22233B;
     font-size: .9em;
+    margin-top: 1.5cm;
     padding: 1.10em 1em;
+    position: absolute;
 }
