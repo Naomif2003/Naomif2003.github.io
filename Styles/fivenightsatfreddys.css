@@ -52,11 +52,11 @@ ul li a{
 }
 
 /* -------------------------------------
- *  Taylor Swift | The Eras Tour
+ *  Five Nights At Freddys
  * -------------------------------------
  */
 
- .taylorswiftimg{
+ .fivenightsatfreddysimg{
     width: 750px;
     margin-top: 13px;
     margin-left: 0.2cm;
@@ -161,27 +161,11 @@ ul li a{
     position: absolute;
 }
 
-.star3{
-    width: 50px;
-    height: 50px;
-    margin-top: 0.2cm;
-    margin-left: 9cm;
-    position: absolute;
-}
-
-.star4{
-    width: 50px;
-    height: 50px;
-    margin-top: 0.2cm;
-    margin-left: 11cm;
-    position: absolute;
-}
-
 .star5{
     width: 50px;
     height: 50px;
     margin-top: 0.2cm;
-    margin-left: 13cm;
+    margin-left: 9cm;
     position: absolute;
 }
 
