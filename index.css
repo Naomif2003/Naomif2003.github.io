@@ -10,14 +10,26 @@
  * -------------------------------------
  */
 
-.busy-bee-logo{
-    width: 30cm;
-    height:20cm;
+ .thebusybeerevieweslogo{
+    width: 4cm;
+    height:3.5cm;
     top: 0;
+    bottom: 0;
     left: 0;
-    margin-top: 1px;
+    margin-top: 0.1cm;
     margin-left: 0.2cm;
     position: absolute;
+}
+
+.thebusybeereviewestitle{
+    top: 0;
+    left: 0;
+    margin-top: 0.9cm;
+    margin-left: 4cm;
+    position: absolute;
+    color: #ffffff;
+    font-family:monospace;
+    font-size: 0.9cm;
 }
 
 /* -------------------------------------

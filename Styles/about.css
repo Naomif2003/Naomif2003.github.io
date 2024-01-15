@@ -6,6 +6,33 @@
 }
 
 /* -------------------------------------
+ *  Logo
+ * -------------------------------------
+ */
+
+ .thebusybeerevieweslogo{
+    width: 4cm;
+    height:3.5cm;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 0.1cm;
+    margin-left: 0.2cm;
+    position: absolute;
+}
+
+.thebusybeereviewestitle{
+    top: 0;
+    left: 0;
+    margin-top: 0.9cm;
+    margin-left: 4cm;
+    position: absolute;
+    color: #ffffff;
+    font-family:monospace;
+    font-size: 0.9cm;
+}
+
+/* -------------------------------------
  *  menu
  * -------------------------------------
  */
@@ -66,7 +93,7 @@ ul li a{
 }
 
 .movietitlequote{
-    margin-top: 3.5cm;
+    margin-top: 4.2cm;
     margin-left: 2.3cm;
     width: 80%;
     height:40%;
@@ -85,7 +112,7 @@ ul li a{
 }
 
 .movietitle{
-    margin-top: 4cm;
+    margin-top: 4.6cm;
     margin-left: 2.9cm;
     width: 80%;
     height:40%;
